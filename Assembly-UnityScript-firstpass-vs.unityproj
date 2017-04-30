@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A1866A90-007C-A832-17FA-751CC1F7D847}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Utility\Quit.js" />
+     <Compile Include="Assets\Plugins\Utility\Wireframe.js" />
+     <None Include="Assets\Resources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\Proland\Shaders\Core\Utility.cginc" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_CrowdRailingA_13-10-01.txt" />
+     <None Include="Assets\Auto Fence Builder\AFB Finished Prefabs &amp; TempMeshes Read Me.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_RopeWood_10-57-24.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_BusyWood_10-44-24.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_BlackRoadsideA_13-04-51.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\Transmittance.compute" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_AngledMetalWave4_09-55-56.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Plankton A_13-17-08.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_GildedAssassin_10-45-13.txt" />
+     <None Include="Assets\Proland\Shaders\Forest\TreeBRDF.cginc" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Country Staggered 3_11-51-20.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Barbed Wire Fence_14-15-35.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_CrashBarrierA_13-07-22.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_ClassicPrisonFence_18-00-18.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SciFiWire_10-18-46.txt" />
+     <None Include="Assets\Proland\Shaders\Terrain\TerrainWithForests.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_TripleCylinders_09-33-12.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\SkyMap.shader" />
+     <None Include="Assets\Proland\Shaders\Terrain\OriginalUpSampleElevation.shader" />
+     <None Include="Assets\Proland\Shaders\Terrain\Planet.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_OrangeSafetyA_13-15-54.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Stubby A_13-20-26.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Angled&amp;SlimRails_06-28-29.txt" />
+     <None Include="Assets\Plugins\Utility\ReadData.compute" />
+     <None Include="Assets\Proland\Shaders\Ocean\InitSpectrum.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WhitePicketFence_17-59-41.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\CopyIrradiance.compute" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_PanelledRailFence_18-10-05.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_DarkPanelA_13-10-30.txt" />
+     <None Include="Assets\Proland\Shaders\Ocean\InitJacobians.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Wood&amp;MetalRailings_10-16-38.txt" />
+     <None Include="Assets\Proland\Shaders\Ocean\InitDisplacement.shader" />
+     <None Include="Assets\Auto Fence Builder\Auto Fence Version History.txt" />
+     <None Include="Assets\Proland\Shaders\Forest\SlopeFilter.shader" />
+     <None Include="Assets\Proland\Shaders\Atmo\InscatterS.compute" />
+     <None Include="Assets\Proland\Shaders\Ocean\OceanWhiteCaps.shader" />
+     <None Include="Assets\Plugins\Utility\WriteData.compute" />
+     <None Include="Assets\Proland\Shaders\Ocean\OceanFFT.shader" />
+     <None Include="Assets\Proland\Shaders\Terrain\UpSampleElevation.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Keep Out A_13-13-52.txt" />
+     <None Include="Assets\Plugins\Math\ImprovedPerlinNoise3D.cginc" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WhiteFenceWithSubs2-_10-35-59.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Victoriana4_10-44-13.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Green Roadside A_13-12-46.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SciFi&amp;Roadside A_13-19-11.txt" />
+     <None Include="Assets\Proland\Shaders\Ocean\SlopeVariance.compute" />
+     <None Include="Assets\Proland\Shaders\Atmo\IrradianceN.compute" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Black&amp;Aluminium_18-14-59.txt" />
+     <None Include="Assets\Proland\Textures\Atmo\BackUp\README.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\PreprocessCommon.cginc" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_DarkWoodPanels_22-50-19.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_BusyMetal2_10-17-23.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SimplePyrami&amp;CrossFence_17-41-52.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_ConcreteMouldyPanels_15-16-18.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SImpleAllMetalFence_17-40-19.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_BrokenFenceWithSubs_17-43-00.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\InscatterN.compute" />
+     <None Include="Assets\Resources\Camera-DepthTexture.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Brick&amp;SubbedOrnatePost-_08-49-07.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\Atmosphere.cginc" />
+     <None Include="Assets\Proland\Shaders\Ocean\OceanDisplacement.cginc" />
+     <None Include="Assets\Auto Fence Builder\A QuickStart.txt" />
+     <None Include="Assets\Proland\Shaders\Forest\Render2DTrees.shader" />
+     <None Include="Assets\Proland\Shaders\Ocean\WhiteCapsPrecompute.shader" />
+     <None Include="Assets\Proland\Shaders\Forest\Render3DTrees.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Horizon2_08-56-04.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_GalleryA_13-11-52.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Metal&amp;WoodWave_18-00-42.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WoodOrRope_10-46-25.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Concrete+Wood2_08-53-36.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WoodBlock&amp;MetalRail_18-26-11.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_A Basic Wooden Fence_11-41-38.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SimplePost&amp;OrnateRail_17-38-31.txt" />
+     <None Include="Assets\Proland\Shaders\Terrain\Terrain.shader" />
+     <None Include="Assets\Proland\Shaders\Atmo\Sky.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_MetalBlackTwoPlusOneA_13-14-30.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WoodStaggeredSubs_08-21-10.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SmallHorizonWood A_13-19-55.txt" />
+     <None Include="Assets\Resources\Fourier.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_DenmarkA_13-11-16.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_OldWoodBlock&amp;AluminiumRail_10-33-35.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SimplePyramidFence_17-26-21.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Security B_15-25-11.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Stumptastic_10-45-05.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Country Staggered Logs_11-52-38.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\CopyInscatter1.compute" />
+     <None Include="Assets\Proland\Shaders\Terrain\PlanetWithForests.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SimpleMetalArcFence_17-16-47.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SecurityAllConcrete-_09-50-06.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Stone&amp;Metal_10-20-40.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_SchoolDays A_13-18-05.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Pyramid&amp;MetalCrossFence_18-16-29.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_WoodMetalPins A_13-21-31.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Block&amp;SquareWire_06-21-34.txt" />
+     <None Include="Assets\Proland\Shaders\Atmo\Inscatter1.compute" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Log Country 2_10-30-21.txt" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Bricks&amp;Wood_20-27-54.txt" />
+     <None Include="Assets\Proland\Shaders\Terrain\UpSampleOrtho.shader" />
+     <None Include="Assets\Proland\Shaders\Forest\ElevationFilter.shader" />
+     <None Include="Assets\Proland\Shaders\Forest\SelectTree.compute" />
+     <None Include="Assets\Proland\Shaders\Atmo\Irradiance1.compute" />
+     <None Include="Assets\Proland\Shaders\Atmo\CopyInscatterN.compute" />
+     <None Include="Assets\Proland\Shaders\Ocean\OceanBRDF.cginc" />
+     <None Include="Assets\Proland\Shaders\Terrain\Normals.shader" />
+     <None Include="Assets\Resources\Proland\Ocean\Fourier.shader" />
+     <None Include="Assets\Auto Fence Builder\Editor\AutoFencePresetFiles\AutoFencePreset_Stone&amp;White_07-05-35.txt" />
+     <None Include="Assets\Proland\Shaders\Forest\UpSampleLcc.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>F:/Program Files/Unity 5.1.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
